@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-
-  constructor() { }
+ home: string = 'Home';
+ bio: string = 'Biography';
+  constructor() {
+   
+   }
 
   ngOnInit() {
   }
